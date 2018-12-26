@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">MusicPlayerApp</string>
+
+    <string-array name="array_songs">
+        <item>Bandey</item>
+        <item>Khudi</item>
+        <item>Aaftab</item>
+        <item>Mizaaj</item>
+        <item>Kaisey jiyun</item>
+        <item>Dil mere</item>
+        <item>Aakhri Salam</item>
+        <item>Aaoge Tum Kabhi</item>
+        <item>Choo Lo</item>
+        <item>Dilnavaz</item>
+        <item>Mere Yaar</item>
+        <item>Yeh Jindagi</item>
+        <item>Manzil</item>
+        <item>Gustaakh</item>
+        <item>Yeh Jindagi</item>
+    </string-array>
 </resources>
