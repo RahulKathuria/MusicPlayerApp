@@ -26,6 +26,7 @@
             android:textStyle="bold"
             android:textSize="25sp"
             android:gravity="center"
+            android:id="@+id/localTrain"
             android:text="The Local Train"/>
 
     </LinearLayout>
@@ -48,6 +49,7 @@
             android:textStyle="bold"
             android:textSize="25sp"
             android:gravity="center"
+            android:id="@+id/prateek"
             android:text="Prateek Kuhad"/>
 
     </LinearLayout>
