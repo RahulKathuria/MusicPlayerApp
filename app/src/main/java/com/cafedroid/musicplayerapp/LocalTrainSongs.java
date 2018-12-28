@@ -1,4 +1,26 @@
 package com.cafedroid.musicplayerapp;
 
-public class LocalTrainSongs {
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+
+public class LocalTrainSongs extends AppCompatActivity{
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.listview);
+        ArrayList<Songs> SongArray = new ArrayList<Songs>();
+        SongArray.add(new Songs("Local Train","Song1"));
+        SongArray.add(new Songs("Local Train","Song2"));
+        SongArray.add(new Songs("Local Train","Song3"));
+        SongsAdapter adapter = new SongsAdapter(this,SongArray);
+        ListView listView = (ListView)findViewById(R.id.listView);
+        listView.setAdapter(adapter);
+
+
+    }
 }
