@@ -62,7 +62,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/Users/rahulkathuria/Downloads/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material_design_icons/av/ic_mic_black_24dp.xml" />
+                                                <entry key="url" value="jar:file:/Users/rahulkathuria/Downloads/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material_design_icons/av/ic_play_arrow_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -75,7 +75,8 @@
                                       <entry key="backgroundLayerName" value="ic_launcher_background" />
                                       <entry key="foregroundAssetType" value="CLIP_ART" />
                                       <entry key="foregroundLayerName" value="ic_launcher_foreground" />
-                                      <entry key="outputName" value="ic_launcher_mic" />
+                                      <entry key="outputName" value="ic_launcher_play" />
+                                      <entry key="previewDensity" value="MEDIUM" />
                                     </map>
                                   </option>
                                 </PersistentState>
