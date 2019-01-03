@@ -14,9 +14,9 @@ public class PrateekSongs extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.listview);
         ArrayList<Songs> SongArray = new ArrayList<Songs>();
-        SongArray.add(new Songs("Prateek Kuhad","Song1"));
-        SongArray.add(new Songs("Prateek Kuhad","Song2"));
-        SongArray.add(new Songs("Prateek Kuhad","Song3"));
+        SongArray.add(new Songs("Prateek Kuhad","Cold/Mess"));
+        SongArray.add(new Songs("Prateek Kuhad","Tune Kaha"));
+        SongArray.add(new Songs("Prateek Kuhad","Tum jab pas"));
         SongsAdapter adapter = new SongsAdapter(this,SongArray);
         ListView listView = (ListView)findViewById(R.id.listView);
         listView.setAdapter(adapter);

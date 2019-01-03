@@ -29,7 +29,10 @@ public class SongsAdapter extends ArrayAdapter<Songs> {
         }
         Songs item = getItem(position);
         TextView singerTextView = (TextView)listItemView.findViewById(R.id.singerTextView);
-        singerTextView.setText(item.getSongName());
+        singerTextView.setText(item.getSingerName());
+        TextView songTextView = (TextView)listItemView.findViewById(R.id.songTextView);
+        songTextView.setText(item.getSongName());
+
         return listItemView;
     }
 }

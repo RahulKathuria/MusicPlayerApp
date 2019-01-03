@@ -14,9 +14,9 @@ public class LocalTrainSongs extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.listview);
         ArrayList<Songs> SongArray = new ArrayList<Songs>();
-        SongArray.add(new Songs("Local Train","Song1"));
-        SongArray.add(new Songs("Local Train","Song2"));
-        SongArray.add(new Songs("Local Train","Song3"));
+        SongArray.add(new Songs("Local Train","Khudi"));
+        SongArray.add(new Songs("Local Train","Aaftab"));
+        SongArray.add(new Songs("Local Train","Aaoge Tum Kabhi"));
         SongsAdapter adapter = new SongsAdapter(this,SongArray);
         ListView listView = (ListView)findViewById(R.id.listView);
         listView.setAdapter(adapter);

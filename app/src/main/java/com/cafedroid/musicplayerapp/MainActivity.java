@@ -25,6 +25,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,PrateekSongs.class);
+                startActivity(i);
+            }
+
+        });
+        localTrain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,LocalTrainSongs.class);
+                startActivity(i);
             }
         });
 
