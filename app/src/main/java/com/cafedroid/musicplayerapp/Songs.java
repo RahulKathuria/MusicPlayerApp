@@ -7,8 +7,8 @@ public class Songs {
 
 
     public Songs(String singer,String song){
-        mSinger = singer;
-        mSong = song;
+        this.mSinger = singer;
+        this.mSong = song;
 
     }
     public String getSingerName(){
@@ -17,4 +17,6 @@ public class Songs {
     public String getSongName(){
         return mSong;
     }
+
+   
 }

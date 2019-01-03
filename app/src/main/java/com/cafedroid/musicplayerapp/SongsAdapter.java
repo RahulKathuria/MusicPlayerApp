@@ -12,8 +12,11 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class SongsAdapter extends ArrayAdapter<Songs> {
+
+    private Context mContext;
     public SongsAdapter(@NonNull Context context, ArrayList<Songs> Song) {
         super(context, 0,Song);
+        mContext = context;
     }
 
     @NonNull
@@ -21,11 +24,11 @@ public class SongsAdapter extends ArrayAdapter<Songs> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         View listItemView = convertView;
         if(listItemView==null){
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item,parent,false);
+            listItemView = LayoutInflater.from(mContext).inflate(R.layout.list_item,parent,false);
 
         }
         Songs item = getItem(position);
-        TextView singerTextView = (TextView)listItemView.findViewById(R.id.textView);
+        TextView singerTextView = (TextView)listItemView.findViewById(R.id.singerTextView);
         singerTextView.setText(item.getSongName());
         return listItemView;
     }
