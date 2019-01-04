@@ -6,17 +6,19 @@ public class Songs {
     private String mSong;
 
 
-    public Songs(String singer,String song){
+    public Songs(String singer, String song) {
         this.mSinger = singer;
         this.mSong = song;
 
     }
-    public String getSingerName(){
+
+    public String getSingerName() {
         return mSinger;
     }
-    public String getSongName(){
+
+    public String getSongName() {
         return mSong;
     }
 
-   
+
 }
