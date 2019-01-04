@@ -13,18 +13,16 @@ public class MainActivity extends AppCompatActivity {
     TextView localTrain;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        prateek = (TextView)findViewById(R.id.prateek);
-        localTrain = (TextView)findViewById(R.id.localTrain);
+        prateek = (TextView) findViewById(R.id.prateek);
+        localTrain = (TextView) findViewById(R.id.localTrain);
         prateek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,PrateekSongs.class);
+                Intent i = new Intent(MainActivity.this, PrateekSongs.class);
                 startActivity(i);
             }
 
@@ -32,15 +30,13 @@ public class MainActivity extends AppCompatActivity {
         localTrain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,LocalTrainSongs.class);
+                Intent i = new Intent(MainActivity.this, LocalTrainSongs.class);
                 startActivity(i);
             }
         });
 
 
     }
-
-
 
 
 }

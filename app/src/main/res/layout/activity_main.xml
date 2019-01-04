@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -12,48 +12,48 @@
         android:layout_height="wrap_content"
         android:layout_gravity=""
         android:orientation="horizontal">
+
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/ic_action_name"
-            />
+            android:src="@drawable/ic_action_name" />
 
         <TextView
+            android:id="@+id/localTrain"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:textAppearance="?android:textAppearanceMedium"
             android:layout_weight="1"
-            android:textStyle="bold"
-            android:textSize="25sp"
             android:gravity="center"
-            android:id="@+id/localTrain"
-            android:text="The Local Train"/>
+            android:text="The Local Train"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity=""
         android:orientation="horizontal">
+
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/ic_action_name_prateek"
-            />
+            android:src="@drawable/ic_action_name_prateek" />
 
         <TextView
+            android:id="@+id/prateek"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:textAppearance="?android:textAppearanceMedium"
             android:layout_weight="1"
-            android:textStyle="bold"
-            android:textSize="25sp"
             android:gravity="center"
-            android:id="@+id/prateek"
-            android:text="Prateek Kuhad"/>
+            android:text="Prateek Kuhad"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
-
 
 
 </LinearLayout>
